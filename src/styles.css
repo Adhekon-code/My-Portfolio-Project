@@ -29,6 +29,17 @@ h2 {
 h1 {
   font-size: 36px;
 }
+.about h1 {
+  font-size: 34px;
+  line-height: 80px;
+}
+.about h2 {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+}
+.about p {
+  font-size: 18px;
+}
 
 p {
   font-weight: normal;
@@ -54,6 +65,12 @@ p {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
+}
+.about {
+  padding: 160px 20px;
+}
+.about-section {
+  margin: 30px;
 }
 
 .btn-branding {
@@ -81,6 +98,7 @@ p {
   border-radius: 10px;
   border: 1px solid var(--branding-color);
 }
+
 .project-description {
   padding: 120px 60px;
 }
@@ -95,6 +113,10 @@ p {
   }
   .btn-brand {
     margin-bottom: 10px;
+  }
+  .about {
+    text-align: center;
+    padding: 0px;
   }
 }
 .btn-brand:hover {
