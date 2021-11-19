@@ -29,6 +29,9 @@ h2 {
 h1 {
   font-size: 36px;
 }
+h4{
+  font-size: 48px;
+}
 .about h1 {
   font-size: 34px;
   line-height: 80px;
@@ -59,6 +62,41 @@ p {
   margin: 0;
   color: #272142;
 }
+.content h3 {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+  line-height: 1.5;
+}
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(103, 28, 173);
+  transition: all 150ms ease-in-out;
+}
+nav li.active a {
+  color: rgb(202, 111, 195);
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-size: 22px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
 
 .hero h2 {
   font-family: var(--heading-font-family);
@@ -66,10 +104,11 @@ p {
   line-height: 2;
   font-size: 24px;
 }
-.about {
+.content {
   padding: 160px 20px;
 }
-.about-section {
+
+.content-section {
   margin: 30px;
 }
 
@@ -114,12 +153,52 @@ p {
   .btn-brand {
     margin-bottom: 10px;
   }
-  .about {
+  .content {
     text-align: center;
     padding: 0px;
+  }
+
+  nav li {
+    font-size: 18px;
   }
 }
 .btn-brand:hover {
   background: var(--secondary-color);
   color: var(--branding-color);
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+.email-link:hover {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+.social-link a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+.social-link a:hover  {
+  color: white;
+  background: var(--branding-color);
+}
+.contact-box{
+   background: var(--secondary-color);
+   padding:30px 120px;
+   border-radius:  10px;
+}
+.contact-box p{
+  margin: 0;
+  font-size: 24px
 }
