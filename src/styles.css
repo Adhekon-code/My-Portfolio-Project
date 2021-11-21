@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
-  background:  linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);;
+  background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
 }
 
 h1,
@@ -75,7 +75,6 @@ p {
 }
 nav {
   padding: 20px 0;
-
 }
 nav a {
   text-decoration: none;
